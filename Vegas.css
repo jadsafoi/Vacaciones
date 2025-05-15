@@ -1,0 +1,85 @@
+a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+.caja{
+    
+    height: 150;
+    width: 80%; 
+    padding: auto;
+    border: 3px solid rgb(255, 255, 255);
+
+    margin: 0 auto;
+    margin: 20px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 255, 100), rgb(255, 200, 50));
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+}
+h1 , h2{
+    color: rgb(151, 235, 223);
+    text-align: center;
+}
+body{
+    background: linear-gradient(to right, black , gray);
+    
+    color: rgb(131, 143, 143);
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;   
+    top: 0;           
+    left: 0;
+    width: 100%;       
+    z-index: 999; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 0 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    border:2px ;
+    background-color: #575757;
+    box-shadow: 0px 0px 15px rgba(98, 95, 95 , 0.9) ;
+    border-radius: 15px;
+}
+.Inicio{
+    background-color: #575757;
+    box-shadow: 0px 0px 15px rgba(98, 95, 95 , 0.9) ;
+}
+
+*{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+img {
+    border-radius: 15px;
+    filter: grayscale(100%);
+    transition: 1s;
+    width: 50%;
+}
+
+img:hover {
+    filter: contrast(100%);
+    transition: 1s;
+    width: 55%;
+}
